@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pms-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 926324a3-bab2-4bd5-b2ff-950e85182535
+        group: dev
+        file-extension: yml #配置DATAId扩展名
